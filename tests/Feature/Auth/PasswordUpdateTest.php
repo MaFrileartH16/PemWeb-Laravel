@@ -1,9 +1,9 @@
 <?php
 
-use App\Models\User;
-use Illuminate\Support\Facades\Hash;
+  use App\Models\User;
+  use Illuminate\Support\Facades\Hash;
 
-test('password can be updated', function () {
+  test('password can be updated', function () {
     $user = User::factory()->create();
 
     $response = $this
